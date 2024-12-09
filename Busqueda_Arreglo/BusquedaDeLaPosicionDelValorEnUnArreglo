@@ -4,12 +4,12 @@ fecha: 17 marzo 2021
 autor:Oscar Joel Castro Contreras
 descripcion:
 
-Hacer un DFD y su respectivo programa en C, qué, reciba una serie de 5 valores enteros, los
-almacene en un arreglo, solicite un valor a buscar, e indique en que posición se encuentra
+Hacer un DFD y su respectivo programa en C, quÃ©, reciba una serie de 5 valores enteros, los
+almacene en un arreglo, solicite un valor a buscar, e indique en que posiciÃ³n se encuentra
 en el arreglo, si el valor no se encuentra, marcar, error valor no encontrado y preguntar si
 desea buscar otro valor.
 
-----Hola profesor este problema no lo pude mandar el día de ayer ya que tuve unos problemas 
+----Hola profesor este problema no lo pude mandar el dÃ­a de ayer ya que tuve unos problemas 
 con mi internet y por esos problemas la plataforma de teams no me dejaba cargar los documentos.-------
 
 ----gracias por todas las explicaciones que a dado, se entiende a la perfeccion.-----
@@ -32,7 +32,7 @@ int main(){
 	}
 	
 	do{
-		printf("\n ¿que valor deseas buscar? \n\t");
+		printf("\n Â¿que valor deseas buscar? \n\t");
 		scanf("%d",&valor);
 		
 		if(arreglo[0]==valor){
@@ -61,7 +61,7 @@ int main(){
 			
 		}
 		
-		printf("¿desea seguir peguntando esta pregunta?\n");
+		printf("Â¿desea seguir peguntando esta pregunta?\n");
 		printf("\n si; escriba s \n No; escriba n \n");
 		fflush(stdin);
 		scanf("%c",&c);
