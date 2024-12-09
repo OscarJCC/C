@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define TAMAÑO 4
+#define TAMAÃ‘O 4
 
 int main(){
 	
