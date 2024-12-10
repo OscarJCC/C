@@ -15,7 +15,7 @@ int main(){
 		printf("D divicion \n");
 		printf("T fin de fincion \n\n");
 		
-		printf("\t\t ¿Cual opcion eliges? \n\t\t\t");
+		printf("\t\t Â¿Cual opcion eliges? \n\t\t\t");
 		scanf("%c",&opcion);
 		
 		printf("\n\n\t Valor de x:");
